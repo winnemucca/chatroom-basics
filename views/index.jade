@@ -1,0 +1,28 @@
+extends layout
+
+block content
+	.container
+		.row
+			h1 chatroom
+			ul.messages
+				h1 messages
+			form
+				input.input-group#m(type="text",name="messages")
+				button Send
+
+		.row
+			ul.pages
+				li.chat.page
+					.chatArea
+						.messages
+
+					input.inputMessage(placeholder="enter here")
+				li.login.page
+					form.form
+						.title Whats your nickname
+						input.usernameInput(type="text", mexlength="14")
+						
+
+
+
+
